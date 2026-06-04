@@ -1,0 +1,16 @@
+{
+  "name": "congo-admin-services",
+  "version": "1.0.0",
+  "description": "Plateforme Nationale de Services Administratifs en Ligne",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspaces",
+    "test": "npm test --workspaces"
+  }
+}
